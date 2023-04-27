@@ -66,6 +66,7 @@ true
 Creamos el carrito agregando azucar como producto base
 
 Agregamos leche al carro
+
 Cart {
   totalAmount: 10,
   product: [ 'Sugar' ],
@@ -74,6 +75,7 @@ Cart {
 }
 
 Volvemos a agregar leche y azucar para que salte el aviso de producto ya cargado
+
 Cart {
   totalAmount: 50,
   product: [ 'Sugar', 'Milk' ],
